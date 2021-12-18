@@ -1,5 +1,5 @@
 ---
-title: Sample Post
+title: hello world
 layout: post
 post-image: ""
 description: 1st post.
