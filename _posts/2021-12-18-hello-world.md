@@ -1,7 +1,7 @@
 ---
 title: hello world
 layout: post
-post-image: ""
+#post-image: ""
 description: 1st post.
 tags:
 - sample
