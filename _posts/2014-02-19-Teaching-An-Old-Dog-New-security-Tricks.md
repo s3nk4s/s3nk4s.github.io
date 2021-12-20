@@ -7,7 +7,7 @@ tags:
 - Thales
 - security
 - mPOS
-published: false
+published: true
 ---
 
 Today’s retail POS system looks very different to the [Ritty Brothers' 'Incorruptible Cashier'of 1870](http://www.americantable.org/2011/11/today-in-history-rittys-incorruptible-cashier-1879/). Now, as the muzzle of even the latest POS system begins to grey, there’s a new pup on the block – mPOS. The common thread throughout all these innovations? The need to ensure that these machines and data are ‘incorruptible’ from a security perspective.

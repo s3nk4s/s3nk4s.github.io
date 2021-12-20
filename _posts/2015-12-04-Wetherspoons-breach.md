@@ -7,7 +7,7 @@ tags:
 - Thales
 - security
 - mPOS
-published: false
+published: true
 ---
 
 Although it is reported that "very limited" credit and debit card information was accessed in the Wetherspoons breach, it is of no less significant concern that personal details including names and email addresses may have been stolen. In fact, theft of card details is relatively easy to ‘deal with’ – they can be blocked and replaced. It’s the other – seemingly innocuous – information that can pose a bigger problem.
