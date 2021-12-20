@@ -1,6 +1,7 @@
 ---
 title: Teaching An Old Dog New (security) Tricks
 layout: post
+post-image: "/assets/iamges/dog.jpg"
 description: Teaching An Old Dog New (security) Tricks
 tags:
 - Thales
@@ -19,3 +20,6 @@ It is no secret that the arrival of mPOS has had a dramatic impact on the retail
 mPOS certainly fulfils these criteria, building on and improving existing traditional infrastructure to showcase highly sophisticated encryption – certainly a trick that future POS systems would benefit from mastering.
 
 I will be speaking about mPOS risk and security at MPE (Merchant Payments Ecosystem) in Berlin this week (18th-20th February). If you plan to attend, we’d love to see you at the Thales stand booth no. 15. Otherwise, you can keep up with the Thales team via Twitter - @Thalesesecurity – and on our blog.
+
+> Photo by <a href="https://unsplash.com/@matthewhenry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Henry</a> on <a href="https://unsplash.com/s/photos/sleepy-dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
