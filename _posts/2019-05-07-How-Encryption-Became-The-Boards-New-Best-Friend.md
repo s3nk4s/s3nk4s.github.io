@@ -1,7 +1,7 @@
 ---
 title: How Encryption Became The Board’s New Best Friend
 layout: post
-#post-image: ""
+post-image: "/assets/images/keys.jpg"
 description: How Encryption Became The Board’s New Best Friend
 tags:
 - Thales
@@ -40,3 +40,6 @@ The rise of reporting on breaches, and the always-evolving nature of cyber threa
 It’s true that leadership can no longer ignore cybersecurity and encryption. After all, outsider threats are now constantly working to find new ways of penetrating systems; the least organisations can do is make life more difficult for them. For the board, though, encryption also presents an opportunity to safeguard the livelihood of the business.
 
 Of course, there is some work for them to do – above all in taking the issue seriously, establishing a culture of cyber-resilience throughout the organisation and sufficiently getting to grips with the topic in order to sign off on a strategy. But the upside here is significant: doing so will ensure the business builds on a solid foundation, protects itself from unnecessary threats and improves its chances of sustainable growth.
+
+> Photo by <a href="https://unsplash.com/@silas_crioco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Silas Köhler</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
