@@ -1,15 +1,15 @@
 ---
-title: Wetherspoons breach: It's not just about the card numbers
+title: Wetherspoons breach - It's not just about the card numbers
 layout: post
 post-image: "/assets/images/beer.jpg"
-description: Wetherspoons breach: It's not just about the card numbers
+description: Wetherspoons breach - It's not just about the card numbers
 tags:
 - Thales
 - security
 - mPOS
 ---
 
-Although it is reported that “very limited” credit and debit card information was accessed in the Wetherspoons breach, it is of no less significant concern that personal details including names and email addresses may have been stolen. In fact, theft of card details is relatively easy to ‘deal with’ – they can be blocked and replaced. It’s the other – seemingly innocuous – information that can pose a bigger problem.
+Although it is reported that "very limited" credit and debit card information was accessed in the Wetherspoons breach, it is of no less significant concern that personal details including names and email addresses may have been stolen. In fact, theft of card details is relatively easy to ‘deal with’ – they can be blocked and replaced. It’s the other – seemingly innocuous – information that can pose a bigger problem.
 
 Details such as your mother’s maiden name, your date of birth, and where you live can be pieced together relatively easily by would-be criminals and used as bait for targeting phishing attacks and identity theft to access more sensitive information. Armed with this information, hackers can continue to commit behavioural attacks well beyond the initial breach.
 
