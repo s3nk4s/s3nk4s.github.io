@@ -6,6 +6,7 @@ description: Keys to the "Concrete Jungle" – from skilled locksmiths to skille
 tags:
 - Thales
 - security
+published: false
 ---
 
 We learned a few weeks ago that master keys for every elevator in New York, from skyscrapers to subways to construction sites, had been [copied and leaked, and are now being freely sold online](http://nypost.com/2015/09/20/the-8-key-that-can-open-new-york-city-to-terrorists/). Let’s hope the image used in that article isn’t of the actual key, else we’ll have an even bigger problem on our hands - thanks to a news piece on baggage handling from last year, replica TSA keys (that open every modern suitcase) have [now been 3D printed](http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/) using leaked photographs of the keys.
