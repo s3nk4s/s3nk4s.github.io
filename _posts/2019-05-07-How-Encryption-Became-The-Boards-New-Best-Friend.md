@@ -1,3 +1,14 @@
+---
+title: How Encryption Became The Board’s New Best Friend
+layout: post
+#post-image: ""
+description: How Encryption Became The Board’s New Best Friend
+tags:
+- Thales
+- security
+- encryption
+---
+
 For many years, encryption has been viewed as a burden on businesses – expensive, complex and of questionable value. How things have changed. In just the past few years (and hundreds of high-profile breaches and £Trillions of economic damage later), cyber threats became impossible for the boardroom to ignore.
 
 Beyond simple economics, the crippling effects of a breach on a business are increasingly broad – from information loss and operational implications, through to media pressure, reputational damage and action from customers or regulators. And so, as the nature of business changed and boards were forced to become increasingly accountable, the idea that issues like encryption are “too technical” for the boardroom transitioned from being an acceptable excuse to a legitimate liability.
