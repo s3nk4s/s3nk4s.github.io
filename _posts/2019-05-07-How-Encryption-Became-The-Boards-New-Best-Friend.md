@@ -7,7 +7,7 @@ tags:
 - Thales
 - security
 - encryption
-published: true
+published: false
 ---
 
 For many years, encryption has been viewed as a burden on businesses – expensive, complex and of questionable value. How things have changed. In just the past few years (and hundreds of high-profile breaches and £Trillions of economic damage later), cyber threats became impossible for the boardroom to ignore.
