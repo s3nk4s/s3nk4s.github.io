@@ -1,7 +1,6 @@
 ---
 title: Teaching An Old Dog New (security) Tricks
 layout: post
-#post-image: ""
 description: Teaching An Old Dog New (security) Tricks
 tags:
 - Thales
