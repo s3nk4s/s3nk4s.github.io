@@ -1,18 +1,30 @@
 ---
-layout: default
+layout: compress
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 0px auto;
-    max-width: 600px;
-    text-align: center;
-    padding-top: 60px;
-  }
-</style>
+<!DOCTYPE html>
+<html>
+{% include head.html %}
 
-<div class="container">
-  <img src="/assets/img/404.gif" width="100%" alt="{{ site.translations.error_404.image_alt | default: '404 - Page not found' }}">
-  <p><strong>{{ site.translations.error_404.title | default: "Page not found :(" }}</strong></p>
-  <p>{{ site.translations.error_404.message | default: "I'm sorry. We couldn't find the page you are looking for." }}</p>
-</div>
+<body>
+    <section class="hero is-fullheight has-text-centered has-background-black-ter">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-1 is-uppercase has-text-weight-bold has-text-white">
+                    {{page.title}}
+                </h1>
+                <h3 class="is-uppercase has-text-weight-medium is-marginless has-text-grey-light">
+                    {{content}}
+                </h3>
+                <hr>
+                <div class="columns is-marginless is-inline-flex-desktop">
+                    <a href="{{site.url}}{{site.baseurl}}/"
+                        class="button is-white column is-rounded is-outlined is-uppercase has-text-weight-normal">Home</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,165 +1,85 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="{{ site.language }}" class="no-js">
-    {% include head.html %}
-    <body class="has-push-menu">
-        {% include minutes-to-read.html %}
-        {% include svg-icons.html %}
-        {% include header.html %}
+<html>
 
-        <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
-            <article role="article" class="post-content">
-                <p class="post-info">
-                    {% if page.date %}
-                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
-                        <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                            {% include date.html date=page.date %}
-                        </time>
-                    {% endif %}
-                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>{{ minutesText }}</span>
-                </p>
-                <h1 class="post-title">{{ page.title }}</h1>
-                <p class="post-subtitle">{{ page.subtitle }}</p>
+<head>
+  {% include head.html %}
+</head>
 
-                {% if page.image and paginator.activated == nil %}
-                    <img src="{{ page.image }}" alt="Featured image" class="post-cover">
-                {% endif %}
+<body>
+  {% include navbar.html %}
 
-                {% include pagination-post.html progressBar=true %}
+  <section class="hero is-fullheight has-text-centered" id="post">
+    <div class="hero-body">
+      <div class="container">
+        <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
+          <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
+        </a>
+        <hr class="has-background-black">
+        <div class="columns is-variable is-5">
+          <div class="column is-6">
+            <figure class="image is-16by9 has-shadow">
+              <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
+            </figure>
+          </div>
+          <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
+            {% unless page.description.size == 0 %}
+            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
+            {% endunless %}
+            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
+              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
+              </a>
+            </p>
+            {%- assign tags = page.tags -%}
+            {%- unless tags.size == 0 -%}
+            <p class="subtitle is-uppercase">
+              <i class="fas fa-tags"></i>
+              {% assign i = 0 %}
+              {% for tags in page.tags %}
+              <span class="tag is-link">{{page.tags[i]}}</span>
+              {% assign i = i | plus:1 %}
+              {% endfor %}
+            </p>
+            {%- endunless -%}
+            {% assign words = content | number_of_words %}
+            {%- unless content.size == 0 -%}
+            <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
+                {{ words | divided_by:180 }} min
+              </b>READ</p>
+            {%- endunless -%}
+          </div>
+        </div>
+        <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
+          <p>{{ content }}</p>
+        </div>
+        {% unless site.disqus-shortname == "" %}
+        <div class="disqus-comments" id="disqus_thread"></div>
+        {% endunless %}
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+<script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function () { /* DON'T EDIT BELOW THIS LINE */
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://{{site.disqus-shortname}}.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
 
-                {% include toc.html %}
-
-                {{ content }}
-
-                {% include pagination-post.html %}
-            </article>
-
-            {% if site.two_columns_layout %}
-                <aside class="see-also">
-                    <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
-                    <ul>
-                        {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" %}
-                        {% assign shuffled_array = next_posts | shuffle %}
-                        {% for post in shuffled_array limit:3 %}
-                            <li>
-                                <a href="{{ post.url | prepend: site.baseurl }}">
-                                    {% if post.optimized_image %}
-                                        <img src="{{ post.optimized_image }}">
-                                    {% elsif post.image %}
-                                        <img src="{{ post.image }}">
-                                    {% else %}
-                                        <img src="/assets/img/off.jpg">
-                                    {% endif %}
-                                    <h3>{{ post.title }}</h3>
-                                </a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </aside>
-            {% endif %}
-
-        </section>
-
-        <!-- Add time bar only for pages without pagination -->
-        {% if paginator.activated == nil and site.show_time_bar == true %}
-            {% include time-bar.html %}
-            {% include recommendation.html %}
-        {% endif %}
-
-        <!-- Show modal if the post is the last one -->
-        {% if paginator.is_last and site.show_modal_on_finish_post %}
-            {% include modal.html title="You made it!" subtitle="Why don't you try another?" %}
-        {% endif %}
-
-        <!-- Show modal before user leaves the page -->
-        {% if site.show_modal_on_exit %}
-            {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
-        {% endif %}
-
-        {% include subscription.html %}
-        {% include share.html %}
-        {% include author.html %}
-        {% include comments.html %}
-        {% include footer.html %}
-
-        {% assign author = site.authors | where: "name", post.author | first %}
-
-        {% assign author_urls = '' %}
-        {% if author.github_username %}
-            {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
-        {% endif %}
-        {% if author.facebook_username %}
-            {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
-        {% endif %}
-        {% if author.twitter_username %}
-            {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
-        {% endif %}
-        {% if author.medium_username %}
-            {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
-        {% endif %}
-        {% if author.instagram_username %}
-            {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
-        {% endif %}
-        {% if author.linkedin_username %}
-            {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
-        {% endif %}
-        {% if page.math %}
-        <script>
-            MathJax = {
-                tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']]
-                }
-            };
-        </script>
-        <script type="text/javascript" id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-        </script>
-        {% endif %}
-        <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "BlogPosting",
-            "name": "{{ page.title }}",
-            "headline": "{{ page.subtitle }}",
-            "description": "{{ page.description }}",
-            "image": "{{ page.image }}",
-            "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-            "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
-            "wordcount": "{{ content | number_of_words }}",
-            "inLanguage": "{{ site.language }}",
-            "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
-            "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
-            "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
-            "author": {
-                "@type": "Person",
-                "name": "{{ author.display_name }}",
-                {% if author.photo %}
-                "image": "{{ author.photo }}",
-                {% else %}
-                "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
-                {% endif %}
-                "jobTitle": "{{ author.position }}",
-                "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
-                "sameAs": [
-                    {{ author_urls | split: "," | join: "," }}
-                ]
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "{{ site.name }}",
-                "url": "{{ site.url }}{{site.baseurl}}/",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "{{ site.url }}{{site.baseurl}}/assets/img/blog-image.png",
-                    "width": "600",
-                    "height": "315"
-                }
-            },
-            "mainEntityOfPage": "True",
-            "genre": "{{ page.category }}",
-            "articleSection": "{{ page.category }}",
-            "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
-        }
-        </script>
-    </body>
 </html>

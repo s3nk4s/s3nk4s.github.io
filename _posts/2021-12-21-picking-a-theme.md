@@ -16,3 +16,8 @@ option 2: https://github.com/andrewbanchich/dimension-jekyll-theme
 > but not 'easy' option for blog posts
 
 but.. could i combine 1 and 2
+
+also:
+
+https://ndrewtl.github.io/airspace-jekyll/ 
+
