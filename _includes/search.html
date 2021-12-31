@@ -1,11 +1,7 @@
-<div class="field has-addons has-text-weight-medium has-text-grey" id="search">
-    <p class="control">
-        <input id="search-input" class="input is-shadowless is-uppercase has-text-grey has-text-weight-normal" type="text"
-            placeholder="Search Here">
-    </p>
-    <p class="control">
-        <button class="button">
-            <i class="fas fa-search has-text-grey"></i>
-        </button>
-    </p>
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="{{ site.translations.text.search | default: 'Search' }}">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul class="search-results search-list"></ul>
+    </div>
 </div>
