@@ -7,17 +7,17 @@ tags:
 - theme
 ---
 
-current: https://github.com/thedevslot/WhatATheme 
+current: [https://github.com/thedevslot/WhatATheme](https://github.com/thedevslot/WhatATheme )
 > some slight rendering problems on mobile
 
-option 1: https://iwiedenm.github.io/jekyll-theme-massively/
+option 1: [https://iwiedenm.github.io/jekyll-theme-massively/](https://iwiedenm.github.io/jekyll-theme-massively/)
 
-option 2: https://github.com/andrewbanchich/dimension-jekyll-theme
+option 2: [https://github.com/andrewbanchich/dimension-jekyll-theme](https://github.com/andrewbanchich/dimension-jekyll-theme)
 > but not 'easy' option for blog posts
 
 but.. could i combine 1 and 2
 
 also:
 
-https://ndrewtl.github.io/airspace-jekyll/ 
+[https://ndrewtl.github.io/airspace-jekyll/](https://ndrewtl.github.io/airspace-jekyll/) 
 

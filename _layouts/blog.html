@@ -1,43 +1,91 @@
----
-layout: compress
----
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+	<head>
+    {% include head.html %}
 
-{% include head.html %}
+	</head>
+	<body class="is-loading">
 
-<body>
-    {% include navbar.html %}
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-    <section class="hero is-fullheight" id="blog">
-        <div class="hero-body">
-            <div class="container">
-                {% include blogpage-heading.html %}
-            </div>
-        </div>
-        <div id="results-container"></div>
-        <!--Blog Cards Section-->
-        {% for post in site.posts %}
-            {% include blog-card.html %}
-        {% endfor %}
-        </div>
-    </section>
-    <br>
-    <!--Footer begins here-->
-    {% include footer.html %}
-    <script src="{{site.url}}{{site.baseurl}}/assets/js/simple-jekyll-search.js"></script>
+				<!-- Header -->
+				<header id="header">
+					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+				</header>
 
-    <script>
-        SimpleJekyllSearch({
-            searchInput: document.getElementById('search'),
-            resultsContainer: document.getElementById('results-container'),
-            json: '{{site.url}}{{site.baseurl}}/search.json',
-            searchResultTemplate: '<div style="border: 0.15rem dashed black" class="searchResult columns has-text-centered" id="blog-card"><div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet"><div class="image is-16by9" style="background-image: url({image});"></div></div><a href="{url}"><div class="column has-text-left-desktop has-text-left-tablet"><h1 class="title is-size-4-touch">{title}</h1><div class="content has-text-grey">{content}<hr class="has-background-grey"><span class="has-text-grey">Published on <span class="has-text-weight-semibold">{date}</span></span> | <i class="fas fa-clock"></i> <span class="has-text-weight-semibold">{readtime} min</span> read</div></div></a></div>',
-            noResultsText: '<div class="subtitle has-text-centered is-uppercase">No Results Found</div><hr class="has-background-black" style="margin: 0.5rem 5rem 2.5rem 5rem">',
-            fuzzy: true,
-        });
-    </script>
-</body>
 
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+						
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+          <article class="post featured">
+            <header class="major">
+              <h2><a href="#">Importance of Blogs</a></h2>
+              <p>Blogs are really pretty awesome things. For one, they are a means to continually provide fresh,
+                dynamic content to your users. Also, they help your site get indexed and build authority as they are essential for SEO!
+							</p>
+            </header>
+						<p>
+							Content fulfills the general population seeing your website and it likewise fulfills web indexes! Having solid content
+							influences your advertising to work a hell of a great deal simpler. Along these lines, the greatest bit of the promoting riddle is there. It's vital to thoroughly consider this technique before starting another crusade. This makes the whole content and advertising process more streamlined and will in the end enable your message to achieve your clients in a more effective manner. You ought not think little of the significance of giving yourself room. Having squirm room takes into consideration steady changes to your methodology en route.
+						<p>
+						</p>
+							At that point, rather than pushing something superfluous to your users, you can give them something that will stick.
+							You'll give them something they can identify with and be slanted to share with their companions and associates. Perhaps they'll even be slanted to work with you later on!
+							Having an advancement technique that is excessively unbending isn't astute on the grounds that there is no space for solid spontaneous creation. Having the capacity to change your advertising procedure will prompt more deals and arrangements.
+						</p>
+
+          </article>
+					<!-- Post -->
+					<section class="posts">
+						{% for post in site.posts %}
+						{% assign mod3 = forloop.index | modulo: 3 %}
+							<article>
+								<header>
+									<span class="date">{{ post.date | date_to_string }}</span>
+									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+								</header>
+								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<p>{{ post.excerpt }}</p>
+								<ul class="actions">
+									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+								</ul>
+							</article>
+							{% if mod3 == 0 %}
+							<article>
+								<header>
+									<h2><a href="#">Sponsored</a></h2>
+								</header>
+
+							</article>
+							{% endif %}
+						{% endfor %}
+
+					</section>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+			<!-- Scripts -->
+			{% include scripts-main.html %}
+			{% include tracking.html %}
+
+	</body>
 </html>
