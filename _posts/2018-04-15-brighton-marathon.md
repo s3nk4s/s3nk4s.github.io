@@ -7,7 +7,7 @@ image: "/assets/images/brighton.jpg"
 published: true
 ---
 
-![brighton marathon](/assets/images/brighton_marathon.jpg)
+<span class="image left"><img src="/assets/images/brighton_marathon.jpg" alt="" width=200></span>
 
 ### Race information
 - What? Brighton Marathon
@@ -16,14 +16,14 @@ published: true
 - Where? Brighton, UK
 - Website: https://www.brightonmarathonweekend.co.uk/events/brighton-marathon/
 - Strava activity: https://www.strava.com/activities/1510472582
-- 
+
 ### Goals
 
-| Goal | Description                                   | Completed? |
-|------|-----------------------------------------------|------------|
-| A    | Finish!                                       | Yes        |
-| B    | Finish under 4 hours                          | Yes        |
-| C    | Raise £1,200 for [Prostate Cancer Research]() | Yes        |
+| Goal | Description                                                                                        | Completed? |
+|------|----------------------------------------------------------------------------------------------------|------------|
+| A    | Finish!                                                                                            | Yes        |
+| B    | Finish under 4 hours                                                                               | Yes        |
+| C    | Raise £1,200 for [Prostate Cancer Research](https://www.justgiving.com/fundraising/skbrighton2018) | Yes        |
 
 ### Splits
 
