@@ -25,3 +25,5 @@ also:
 and... finally settled on [Massively](https://iwiedenm.github.io/jekyll-theme-massively/)
 
 - nice background image, good looking blog posts, easy navigation 
+
+> picture by me

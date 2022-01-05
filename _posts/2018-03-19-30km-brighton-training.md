@@ -8,3 +8,5 @@ published: true
 ---
 
 Super cold run yesterday. Maybe it helped though... I’m sure that wearing my prostatecanceruk shirt helped too
+
+> picture by me
