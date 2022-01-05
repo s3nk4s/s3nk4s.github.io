@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "brighton marathon race report"
-date:   2000-01-01
+date:   2018-04-05
 excerpt: "..."
 image: "/assets/images/brighton.jpg"
 published: true
