@@ -6,7 +6,7 @@ description: Financial Services Organizations Need to Adapt their Security Pract
 tags:
 - Thales
 - security
-published: false
+published: true
 ---
 
 Companies and organizations, whether in the public or in the private sector, are re-establishing their business in the era of information and data revolution. Labelled Industry 4.0, businesses are taking advantage of digital technologies like cloud, mobile, and IoT to digitally transform their operations. Even “traditional banks” seek to drive more revenue from digital products, personalized services and experiences. At the same time, financial services organizations need to adapt to a shifting global environment. The COVID-19 pandemic has urged all enterprises to alter their business and security models to support work-from-home practices.
