@@ -19,10 +19,11 @@ published: true
 - 
 ### Goals
 
-|      Goal     	|      Description            	|      Completed?     	|
-|---------------	|-----------------------------	|---------------------	|
-|     A         	|     Finish!                 	|     Yes             	|
-|     B         	|     Finish under 4 hours    	|     Yes             	|
+| Goal | Description                                   | Completed? |
+|------|-----------------------------------------------|------------|
+| A    | Finish!                                       | Yes        |
+| B    | Finish under 4 hours                          | Yes        |
+| C    | Raise £1,200 for [Prostate Cancer Research]() | Yes        |
 
 ### Splits
 
