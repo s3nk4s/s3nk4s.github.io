@@ -10,7 +10,7 @@ url: "https://simon.keat.es" # the base hostname & protocol for your site
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
+analytics-id:       "UA-21696640-1"
 twitter:            simonkeates
 facebook:           simonkeates
 instagram:          s3nk4s
