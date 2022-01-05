@@ -7,7 +7,18 @@ tags:
 - theme
 ---
 
-current: [https://github.com/thedevslot/WhatATheme](https://github.com/thedevslot/WhatATheme )
+![alt text](https://simon.keat.es/assets/images/staircase.jpg)
+
+<span class="image left">
+    <img src="https://simon.keat.es/assets/images/staircase.jpg" alt="">
+</span>
+
+<img src="https://simon.keat.es/assets/images/staircase.jpg" alt="">
+
+<img src="https://simon.keat.es/assets/images/staircase.jpg" width="200" height="100">
+
+
+current (as of today, 21-dec-2021): [https://github.com/thedevslot/WhatATheme](https://github.com/thedevslot/WhatATheme )
 > some slight rendering problems on mobile
 
 option 1: [https://iwiedenm.github.io/jekyll-theme-massively/](https://iwiedenm.github.io/jekyll-theme-massively/)
