@@ -2,8 +2,8 @@
 title: Picking a theme
 layout: post
 image: "/assets/images/staircase.jpg"
-image: "/assets/images/staircase.jpg"
 description: ...
+excerpt: ...
 tags:
 - theme
 ---
