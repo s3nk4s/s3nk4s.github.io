@@ -1,7 +1,7 @@
 ---
 title: hello world
 layout: post
-#post-image: ""
+image: "/assets/images/cow.jpg"
 description: 1st post.
 tags:
 - sample

@@ -1,7 +1,7 @@
 ---
 title: Keys to the "Concrete Jungle" – from skilled locksmiths to skilled cryptographers
 layout: post
-post-image: "/assets/images/keys2.jpg"
+image: "/assets/images/keys2.jpg"
 description: Keys to the "Concrete Jungle" – from skilled locksmiths to skilled cryptographers
 tags:
 - Thales

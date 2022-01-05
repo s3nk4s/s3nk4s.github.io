@@ -1,7 +1,7 @@
 ---
 title: Financial Services Organizations Need to Adapt their Security Practices to the Shifting Environment
 layout: post
-post-image: "/assets/images/report.jpg"
+image: "/assets/images/report.jpg"
 description: Financial Services Organizations Need to Adapt their Security Practices to the Shifting Environment
 tags:
 - Thales

@@ -1,7 +1,7 @@
 ---
 title: How Encryption Became The Board’s New Best Friend
 layout: post
-post-image: "/assets/images/keys.jpg"
+image: "/assets/images/keys.jpg"
 description: How Encryption Became The Board’s New Best Friend
 tags:
 - Thales

@@ -1,7 +1,7 @@
 ---
 title: Wetherspoons breach - It's not just about the card numbers
 layout: post
-post-image: "/assets/images/beer.jpg"
+image: "/assets/images/beer.jpg"
 description: Wetherspoons breach - It's not just about the card numbers
 tags:
 - Thales
