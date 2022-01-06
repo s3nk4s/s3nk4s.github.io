@@ -16,7 +16,7 @@ Beyond simple economics, the crippling effects of a breach on a business are inc
 
 In recent years, we’ve seen a sharp rise in reporting and analysis of data breaches – arguably both a stimulant and a symptom of cyber-security taking its place on the board agenda. And while the rise in reporting is positive, it highlights the chasm between recognition of the problem and application of sufficient solutions. Are we getting closer to addressing the problem? If not, what’s holding us back?
 
-# The digital transformation conundrum
+## The digital transformation conundrum
 
 We are watching the Fourth Industrial Revolution unfold: a sweeping, global shift that will mean “going digital” is no longer optional. Businesses will be technology-enabled, connected and mobile, like never before. It’s no wonder we are in the midst of a mass digital transformation migration, which IDC predicts will account for $1.25trillion in spend this year.
 
@@ -24,7 +24,7 @@ This is a significant change. But with it has come an important, untold story ab
 
 Sensitive customer, financial, and other proprietary data is the most important asset a business can protect. Yet, an integral part of many companies’ digital transformation journey consists of migrating data away from ‘locked vaults’ in the organisation’s data centre, out to the cloud and edge technologies like mobile devices. No longer can the organisation simply set up a secure perimeter and feel good about its stance.
 
-# Enter encryption
+## Enter encryption
 
 Clearly, it’s hard to imagine businesses still viewing encryption as too expensive, complex or of questionable value. In fact, major brands are increasingly calling out encryption as core to their cyber resilience efforts – or, unfortunately for some, admitting they should have invested in encryption before a major breach hurt their business. But what does an effective strategy for encryption entail?
 
@@ -34,7 +34,7 @@ Next, it’s about keeping the organisation secure by design. For far too long s
 
 Lastly, it’s key that the board does essentially become a bottleneck. The best strategies for encryption and cyber resilience are built on well-designed processes and streamlined sign-offs that empower lines of business and make clear that data security is important to the business – all rooted in a well-defined understanding of the leadership’s stance on encryption. That is why the role of the board is now so critical to an organisation’s cybersecurity.
 
-# Encryption is a board’s best friend
+## Encryption is a board’s best friend
 
 The rise of reporting on breaches, and the always-evolving nature of cyber threats, can often paint a gloomy picture for businesses.
 

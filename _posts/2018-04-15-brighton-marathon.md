@@ -12,7 +12,6 @@ published: true
 
 <br>
 
-
 ### Race information
 - What? Brighton Marathon
 - When? April 15, 2018
