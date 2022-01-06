@@ -7,17 +7,20 @@ image: "/assets/images/brighton.jpg"
 published: true
 ---
 
+
 <span class="image left"><img src="/assets/images/brighton_marathon.jpg" alt="" width=200></span>
+
+<br>
+
 
 ### Race information
 - What? Brighton Marathon
 - When? April 15, 2018
 - How far? 26.2 miles
 - Where? Brighton, UK
-- Website: [https://www.brightonmarathonweekend.co.uk/events/brighton-marathon/](https://www.brightonmarathonweekend.co.uk/events/brighton-marathon/)
+- Website: [https://www.brightonmarathonweekend.co.uk/events/brighton-marathon](https://www.brightonmarathonweekend.co.uk/events/brighton-marathon/)
 - Strava activity: [https://www.strava.com/activities/1510472582](https://www.strava.com/activities/1510472582)
 
-<br>
 <br>
 <br>
 
