@@ -15,11 +15,11 @@
 		</tr>
 	</thead>
 	<tbody class="list">
-	{% for entry in site.links %}
+	{% for post in site.posts %}
 		<tr>
-			<td class="name">{{ entry.company-name }}</td>
-			<td class="city">{{ entry.city }}</td>
-			<td class="category">{{ entry.categories }}</td>
+			<td class="name">{{ entry.title }}</td>
+			<td class="city">{{ entry.image }}</td>
+			<td class="category">{{ entry.description }}</td>
 			<td class="tags">{{ entry.tags | array_to_sentence_string }}</td>
 		</tr>
 	{% endfor %}
@@ -29,13 +29,3 @@
 
 </div>
 
-
-<script type="text/javascript">
-
-var options = {
-  valueNames: ['name', 'city', 'category', 'tags']
-};
-
-var entryList = new List('entry-list', options);
-
-</script>
