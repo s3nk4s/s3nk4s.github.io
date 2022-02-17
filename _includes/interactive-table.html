@@ -15,12 +15,12 @@
 		</tr>
 	</thead>
 	<tbody class="list">
-	{% for link in site.links %}
+	{% for entry in site.links %}
 		<tr>
-			<td class="name">{{ link.company-name }}</td>
-			<td class="city">{{ link.city }}</td>
-			<td class="category">{{ link.categories }}</td>
-			<td class="tags">{{ link.tags | array_to_sentence_string }}</td>
+			<td class="name">{{ entry.company-name }}</td>
+			<td class="city">{{ entry.city }}</td>
+			<td class="category">{{ entry.categories }}</td>
+			<td class="tags">{{ entry.tags | array_to_sentence_string }}</td>
 		</tr>
 	{% endfor %}
 	</tbody>
