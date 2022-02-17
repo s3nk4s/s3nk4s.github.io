@@ -23,7 +23,7 @@
 			<td class="description">{{ link.description }}</td>
 			<td class="tags">{{ link.tags | array_to_sentence_string }}</td>
 			<!-- <td class="link">{{ link.link }}</td> -->
-			<td class="date">{{ link.date | date: "%Y%m%d"}}</td>
+			<td class="date">{{ link.date | date: "%Y-%m-%d"}}</td>
 		</tr>
 	{% endfor %}
 	</tbody>
