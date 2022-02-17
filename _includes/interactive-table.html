@@ -15,11 +15,11 @@
 		</tr>
 	</thead>
 	<tbody class="list">
-	{% for post in site.posts %}
+	{% for post in site.links %}
 		<tr>
-			<td class="name">{{ post.description }}</td>
-			<td class="city">{{ post.excerpt }}</td>
-			<td class="category">{{ post.image }}</td>
+			<td class="name">{{ post.company-name }}</td>
+			<td class="city">{{ post.city }}</td>
+			<td class="category">{{ post.categories }}</td>
 			<td class="tags">{{ post.tags | array_to_sentence_string }}</td>
 		</tr>
 	{% endfor %}
