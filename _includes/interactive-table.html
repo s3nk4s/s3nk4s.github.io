@@ -17,10 +17,10 @@
 	<tbody class="list">
 	{% for post in site.posts %}
 		<tr>
-			<td class="name">{{ entry.title }}</td>
-			<td class="city">{{ entry.image }}</td>
-			<td class="category">{{ entry.description }}</td>
-			<td class="tags">{{ entry.tags | array_to_sentence_string }}</td>
+			<td class="name">{{ post.title }}</td>
+			<td class="city">{{ post.image }}</td>
+			<td class="category">{{ post.description }}</td>
+			<td class="tags">{{ post.tags | array_to_sentence_string }}</td>
 		</tr>
 	{% endfor %}
 	</tbody>
