@@ -1,5 +1,5 @@
 ---
-date: 2022-02-14
+date: 2022-02-13
 layout: links
 name: Generate and Decode QR Codes using Python
 description: ... 
