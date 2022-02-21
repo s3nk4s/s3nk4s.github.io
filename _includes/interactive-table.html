@@ -16,12 +16,13 @@
 	</thead>
 	
 	<tbody class="list">
-		{% for link in site.links %}
+		<!-- {% for link in site.links %} -->
+		{% for block in site.links.links.links %}
 			<tr>
-				<td class="name"><a href="{{ link.link }}">{{ link.name }}</a></td>
-				<td class="description">{{ link.description }}</td>
-				<td class="tags">{{ link.tags | array_to_sentence_string }}</td>
-				<td class="date">{{ link.date | date: "%Y-%m-%d"}}</td>
+				<td class="name"><a href="{{ block.link }}">{{ block.name }}</a></td>
+				<td class="description">{{ block.description }}</td>
+				<td class="tags">{{ block.tags | array_to_sentence_string }}</td>
+				<td class="date">{{ block.date | date: "%Y-%m-%d"}}</td>
 			</tr>
 		{% endfor %}
 	</tbody>
