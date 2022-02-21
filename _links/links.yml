@@ -1,41 +1,41 @@
 links:
-- name: HTTP/3 is Fast
-  description:  via https://danielmiessler.com/
-  link: https://requestmetrics.com/web-performance/http3-is-fast
-  date: 04/01/2022
-  categories: web
-- HTTP/3 is Fast: QUIC vs TCP+TLS — and why QUIC is not the next big thing
-  description: 
-  link: https://medium.com/codavel-blog/quic-vs-tcp-tls-and-why-quic-is-not-the-next-big-thing-d4ef59143efd
-  date: 04/01/2022
-  categories: web
-- QUIC vs TCP+TLS — and why QUIC is not the next big thing: Cloudflared addon for HA
-  description: …
-  link: https://github.com/brenner-tobias/addon-cloudflared
-  date: 04/01/2022
-  categories: HA
-- Cloudflared addon for HA: More on Cloudflared
-  description: …
-  link: https://community.home-assistant.io/t/new-add-on-cloudflared/361637
-  date: 04/01/2022
-  categories: HA
-- More on Cloudflared: reddit on Cloudflared
-  description: …
-  link: https://www.reddit.com/r/homeassistant/comments/sh1u3y/anybody_using_the_cloudflared_addon_for_remote/
-  date: 04/01/2022
-  categories: HA
-- reddit on Cloudflared: getting started with home assistant core installing
-  description: mainly for starting HA at boot
-  link: https://www.raspberryfield.life/2020/06/14/getting-started-with-home-assistant-core-installing/
-  date: 04/01/2022
-  categories: HA
-- getting started with home assistant core installing: How to add Sunrise & Sunset Cards
-  description: …
-  link: https://community.home-assistant.io/t/how-to-add-sunrise-sunset-cards/109545
-  date: 04/01/2022
-  categories: HA
-- How to add Sunrise & Sunset Cards: Setting the value of a helper from the weather temperature attribute
-  description: to create a sensor with external hourly temperature
-  link: https://community.home-assistant.io/t/setting-the-value-of-a-helper-from-the-weather-temperature-attribute/371230/4
-  date: 04/01/2022
-  categories: HA
+ - name: HTTP/3 is Fast
+   description:  via https://danielmiessler.com/
+   link: https://requestmetrics.com/web-performance/http3-is-fast
+   date: 04/01/2022
+   categories: web
+ - HTTP/3 is Fast: QUIC vs TCP+TLS — and why QUIC is not the next big thing
+   description: 
+   link: https://medium.com/codavel-blog/quic-vs-tcp-tls-and-why-quic-is-not-the-next-big-thing-d4ef59143efd
+   date: 04/01/2022
+   categories: web
+ - QUIC vs TCP+TLS — and why QUIC is not the next big thing: Cloudflared addon for HA
+   description: …
+   link: https://github.com/brenner-tobias/addon-cloudflared
+   date: 04/01/2022
+   categories: HA
+ - Cloudflared addon for HA: More on Cloudflared
+   description: …
+   link: https://community.home-assistant.io/t/new-add-on-cloudflared/361637
+   date: 04/01/2022
+   categories: HA
+ - More on Cloudflared: reddit on Cloudflared
+   description: …
+   link: https://www.reddit.com/r/homeassistant/comments/sh1u3y/anybody_using_the_cloudflared_addon_for_remote/
+   date: 04/01/2022
+   categories: HA
+ - reddit on Cloudflared: getting started with home assistant core installing
+   description: mainly for starting HA at boot
+   link: https://www.raspberryfield.life/2020/06/14/getting-started-with-home-assistant-core-installing/
+   date: 04/01/2022
+   categories: HA
+ - getting started with home assistant core installing: How to add Sunrise & Sunset Cards
+   description: …
+   link: https://community.home-assistant.io/t/how-to-add-sunrise-sunset-cards/109545
+   date: 04/01/2022
+   categories: HA
+ - How to add Sunrise & Sunset Cards: Setting the value of a helper from the weather temperature attribute
+   description: to create a sensor with external hourly temperature
+   link: https://community.home-assistant.io/t/setting-the-value-of-a-helper-from-the-weather-temperature-attribute/371230/4
+   date: 04/01/2022
+   categories: HA
