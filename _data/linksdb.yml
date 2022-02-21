@@ -44,3 +44,8 @@ links:
    link: https://medium.com/blueeast/jekyll-and-data-files-with-real-time-example-6ea704213111
    date: 21/02/2022
    tags: web
+ - name: JWTs And Why They Suck
+   description:  by @roddux/Rory M -- Security BSides London
+   link: https://www.youtube.com/watch?v=A5SaixJE3mI
+   date: 21/02/2022
+   tags: security
