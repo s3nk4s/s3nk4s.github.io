@@ -3,49 +3,59 @@ links:
    description:  via https://danielmiessler.com/
    link: https://requestmetrics.com/web-performance/http3-is-fast
    date: 04/01/2022
-   tags: web
+   category: Web
+   tags: Web
  - name: QUIC vs TCP+TLS — and why QUIC is not the next big thing
    description: 
    link: https://medium.com/codavel-blog/quic-vs-tcp-tls-and-why-quic-is-not-the-next-big-thing-d4ef59143efd
    date: 04/01/2022
-   tags: web
+   category: Web
+   tags: Web
  - name: Cloudflared addon for HA
    description: …
    link: https://github.com/brenner-tobias/addon-cloudflared
    date: 04/01/2022
+   category: HA
    tags: HA
  - name: More on Cloudflared
    description: …
    link: https://community.home-assistant.io/t/new-add-on-cloudflared/361637
    date: 04/01/2022
+   category: HA
    tags: HA
  - name: reddit on Cloudflared
    description: …
    link: https://www.reddit.com/r/homeassistant/comments/sh1u3y/anybody_using_the_cloudflared_addon_for_remote/
    date: 04/01/2022
+   category: HA
    tags: HA
  - name: getting started with home assistant core installing
    description: mainly for starting HA at boot
    link: https://www.raspberryfield.life/2020/06/14/getting-started-with-home-assistant-core-installing/
    date: 04/01/2022
+   category: HA
    tags: HA
  - name: How to add Sunrise & Sunset Cards
    description: …
    link: https://community.home-assistant.io/t/how-to-add-sunrise-sunset-cards/109545
    date: 04/01/2022
+   category: HA
    tags: HA
  - name: Setting the value of a helper from the weather temperature attribute
    description: to create a sensor with external hourly temperature
    link: https://community.home-assistant.io/t/setting-the-value-of-a-helper-from-the-weather-temperature-attribute/371230/4
    date: 04/01/2022
+   category: HA
    tags: HA
  - name: Jekyll and Data files with Real Time Examples
    description: for a better way to serve a links table
    link: https://medium.com/blueeast/jekyll-and-data-files-with-real-time-example-6ea704213111
    date: 21/02/2022
-   tags: web
+   category: Jekyll
+   tags: Jekyll, Web
  - name: JWTs And Why They Suck
    description:  by @roddux/Rory M -- Security BSides London
    link: https://www.youtube.com/watch?v=A5SaixJE3mI
    date: 21/02/2022
-   tags: security
+   category: Security
+   tags: Web, Security
