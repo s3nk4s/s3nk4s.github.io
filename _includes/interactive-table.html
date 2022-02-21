@@ -24,6 +24,15 @@
 				<td class="date">{{ block.date | date: "%Y-%m-%d"}}</td>
 			</tr>
 		{% endfor %}
+		<p>test</p>
+		{% for block in site.links.links %}
+			<tr>
+				<td class="name"><a href="{{ block.link }}">{{ block.name }}</a></td>
+				<td class="description">{{ block.description }}</td>
+				<td class="tags">{{ block.tags | array_to_sentence_string }}</td>
+				<td class="date">{{ block.date | date: "%Y-%m-%d"}}</td>
+			</tr>
+		{% endfor %}
 	</tbody>
 </table>
 </div>
