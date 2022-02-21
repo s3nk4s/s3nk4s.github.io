@@ -16,7 +16,7 @@
 	</thead>
 	
 	<tbody class="list">
-		{% for block in site.links.links.links %}
+		{% for block in site.data.linksdb.links %}
 			<tr>
 				<td class="name"><a href="{{ block.link }}">{{ block.name }}</a></td>
 				<td class="description">{{ block.description }}</td>
@@ -26,6 +26,9 @@
 		{% endfor %}
 	</tbody>
 </table>
+		{% for block in site.data.linksdb.links %}
+		<p>test {% block %}</p>
+		{% endfor %}
 </div>
 
 </div>
