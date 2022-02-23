@@ -1,3 +1,4 @@
+links:
  - name: Markdown Table Generator
    description: ...
    link: https://www.tablesgenerator.com/markdown_tables
@@ -10,16 +11,16 @@
    date: 04/01/2022
    category: General
    tags: General
+ - name: What Is the Fish Model?
+   description: ...
+   link: https://www.tsia.com/blog/what-is-the-fish-model
+   date: 10/01/2022
+   category: General
+   tags: General
  - name: twitter - migrating away from g-suite
    description: potential write up on migrating away from g-suite
    link: https://twitter.com/edent/status/1484131697461547016
    date: 24/01/2022
-   category: General
-   tags: General
- - name: What Is the Fish Model?
-   description: ...
-   link: https://www.tsia.com/blog/what-is-the-fish-model
-   date: 10/02/2022
    category: General
    tags: General
  - name: Generate and Decode QR Codes using Python
@@ -37,75 +38,75 @@
  - name: Cloudflared addon for HA
    description: ...
    link: https://github.com/brenner-tobias/addon-cloudflared
-   date: 31/01/2021
-   category: HA
-   tags: HA
+   date: 31/01/2022
+   category: Home Assistant
+   tags: Home Assistant
  - name: More on Cloudflared
    description: ...
    link: https://community.home-assistant.io/t/new-add-on-cloudflared/361637
-   date: 31/01/2021
-   category: HA
-   tags: HA
+   date: 31/01/2022
+   category: Home Assistant
+   tags: Home Assistant
  - name: reddit on Cloudflared
    description: ...
    link: https://www.reddit.com/r/homeassistant/comments/sh1u3y/anybody_using_the_cloudflared_addon_for_remote/
-   date: 31/01/2021
-   category: HA
-   tags: HA
+   date: 31/01/2022
+   category: Home Assistant
+   tags: Home Assistant
  - name: How to add Sunrise & Sunset Cards
    description: ...
    link: https://community.home-assistant.io/t/how-to-add-sunrise-sunset-cards/109545
-   date: 31/01/2021
-   category: HA
-   tags: HA
+   date: 31/01/2022
+   category: Home Assistant
+   tags: Home Assistant
  - name: getting started with home assistant core installing
    description: mainly for starting HA at boot
    link: https://www.raspberryfield.life/2020/06/14/getting-started-with-home-assistant-core-installing/
-   date: 31/01/2021
-   category: HA
-   tags: HA
+   date: 31/01/2022
+   category: Home Assistant
+   tags: Home Assistant
  - name: Setting the value of a helper from the weather temperature attribute
    description: to create a sensor with external hourly temperature
    link: https://community.home-assistant.io/t/setting-the-value-of-a-helper-from-the-weather-temperature-attribute/371230/4
-   date: 31/01/2021
-   category: HA
-   tags: HA
+   date: 31/01/2022
+   category: Home Assistant
+   tags: Home Assistant
  - name: EASY Lovelace Mobile Dashboard
    description: ...
    link: https://www.youtube.com/watch?v=5y6rhwr5Y8c
    date: 04/01/2022
-   category: HA
-   tags: HA
+   category: Home Assistant
+   tags: Home Assistant
  - name: Teams Status in Home Assistant
    description: but not to use for Teams, just a general strategy for pushing data to HA
    link: https://github.com/EBOOZ/TeamsStatus
    date: 17/01/2022
-   category: HA
-   tags: HA
+   category: Home Assistant
+   tags: Home Assistant
  - name: 7 Day accumulated rain fall
    description: to help figure out if i run off road or not
    link: https://community.home-assistant.io/t/7-day-accumulated-rain-fall/14984/6
    date: 24/01/2022
-   category: HA
-   tags: HA
+   category: Home Assistant
+   tags: Home Assistant
  - name: home assistand backup to Google Drive
    description: ...
    link: https://github.com/sabeechen/hassio-google-drive-backup
    date: 14/02/2022
-   category: HA
-   tags: HA
+   category: Home Assistant
+   tags: Home Assistant
  - name: reddit post on SD vs SSD drives for HA
    description: ...
    link: https://www.reddit.com/r/homeassistant/comments/ltvdnp/sd_versus_usb_flash_drive_versus_ssd_for_home/
    date: 14/02/2022
-   category: HA
-   tags: HA
+   category: Home Assistant
+   tags: Home Assistant
  - name: Lovelace Mini Graph Card
    description: ...
    link: https://github.com/kalkih/mini-graph-card
    date: 21/02/2022
-   category: HA
-   tags: HA
+   category: Home Assistant
+   tags: Home Assistant
  - name: Massively Theme on Jekyll home
    description: ...
    link: https://iwiedenm.github.io/jekyll-theme-massively/
