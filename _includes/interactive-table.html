@@ -16,7 +16,7 @@
 	</thead>
 	
 	<tbody class="list">
-		{% for block in site.data.linksdb.links %}
+		{% for block in site.data.linksdb.links | sort 'date' desc %}
 			<tr>
 				<td class="name"><a href="{{ block.link }}">{{ block.name }}</a></td>
 				<td class="description">{{ block.description }}</td>
