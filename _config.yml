@@ -62,7 +62,8 @@ paginate: 6
 paginate_path: "/blog/page:num/"
 
 collections:
- - projects
+ projects:
+   output: true
 
 jekyll-mentions:
     base_url: https://github.com
