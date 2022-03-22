@@ -179,3 +179,22 @@ links:
    date: 07/03/2022
    category: General
    tags: General
+ - name: Timeline 
+   description: A tool for creating SVG timelines from JSON.
+   link: https://github.com/jasonreisman/Timeline
+   date: 07/03/2022
+   category: General
+   tags: General
+ - name: Home Assistant data persistence and visualization with Grafana & InfluxDB 
+   description:  send your Home Assistant sensor data to a dedicated time-series optimized database 
+   link: https://www.paolotagliaferri.com/home-assistant-data-persistence-and-visualization-with-grafana-and-influxdb/
+   date: 07/03/2022
+   category: HA
+   tags: HA   
+ - name: How to apply color banded rows or columns in Excel?
+   description: ...
+   link: https://www.extendoffice.com/documents/excel/3692-excel-banded-rows-columns.html
+   date: 22/03/2022
+   category: Excel
+   tags: Excel     
+   
