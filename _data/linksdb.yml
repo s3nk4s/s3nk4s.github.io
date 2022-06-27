@@ -209,9 +209,15 @@ links:
    date: 03/05/2022
    category: random
    tags: random
- - name: The 25 Largest Fictional Companies
-   description: ...
+ - name: How to Write an Automated Text Article with Python and AI in 4 Lines of Code
+   description: A step-by-step guide on writing an automated text article using Python and AI
    link: https://python.plainenglish.io/how-to-write-an-automated-text-article-with-python-and-ai-in-4-lines-of-code-df3ef5dd7c4
-   date: 03/05/2022
+   date: 13/06/2022
    category: random
    tags: random
+ - name: Reddit thread - online resources covering cybersec-related events of the week
+   description: ...
+   link: https://www.reddit.com/r/cybersecurity/comments/vi5tlk/hi_does_anyone_have_any_reliable_online_and_free/
+   date: 27/06/2022
+   category: security
+   tags: security 
