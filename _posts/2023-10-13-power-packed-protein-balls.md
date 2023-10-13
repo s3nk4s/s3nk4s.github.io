@@ -16,8 +16,6 @@ published: true
 `create a blog post to accompany the above including alternative ingredients and a funny anecdote`
 `generate a 140 character summary for the blog post above`
 
-# Power-Packed Protein Balls: Fuel Your Day with Goodness!
-
 Do you ever find yourself craving a quick, energy-boosting snack? Look no further than these delightful protein balls! Packed with wholesome ingredients and a dash of humor, this recipe is sure to become your go-to snack.
 
 ## The Protein Ball Recipe
