@@ -1,5 +1,5 @@
 ---
-title: Power-Packed Protein Balls: Fuel Your Day with Goodness!
+title: Power-Packed Protein Balls - Fuel Your Day with Goodness!
 layout: post
 image: "/assets/images/protein-balls.jpg"
 description: Discover how to make delicious no-bake protein balls with rolled oats and protein powder, plus a funny anecdote! Perfect for a healthy snack.
