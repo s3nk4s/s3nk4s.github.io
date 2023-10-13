@@ -6,6 +6,7 @@ description: Discover how to make delicious no-bake protein balls with rolled oa
 tags:
 - recipies
 published: true
+excerpt: "Discover how to make delicious no-bake protein balls with rolled oats and protein powder, plus a funny anecdote! Perfect for a healthy snack."
 ---
 
 > Note: this is me playing with chatGPT to create some content. The following prompt was used to create this post:
