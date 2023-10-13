@@ -8,6 +8,14 @@ tags:
 published: true
 ---
 
+> Note: this is me playing with chatGPT to create some content. The following prompt was used to create this post:
+
+`create a recipe for protein balls with rolled oats and protein power, but no peanut butter`
+`rewrite using metric system`
+`rewrite with storage bullets. including freezing and thawing`
+`create a blog post to accompany the above including alternative ingredients and a funny anecdote`
+`generate a 140 character summary for the blog post above`
+
 # Power-Packed Protein Balls: Fuel Your Day with Goodness!
 
 Do you ever find yourself craving a quick, energy-boosting snack? Look no further than these delightful protein balls! Packed with wholesome ingredients and a dash of humor, this recipe is sure to become your go-to snack.
