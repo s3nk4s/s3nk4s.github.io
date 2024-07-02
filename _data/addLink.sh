@@ -11,13 +11,13 @@ add_to_yaml() {
   local tags=$7
 
   # Append the new component to the YAML file
+  echo "" >> "$yaml_file" # start a new line
   echo "- name: $name" >> "$yaml_file"
   echo "  description: $description" >> "$yaml_file"
   echo "  link: $link" >> "$yaml_file"
   echo "  date: $date" >> "$yaml_file"
   echo "  category: $category" >> "$yaml_file"
   echo "  tags: $tags" >> "$yaml_file"
-  echo "" >> "$yaml_file" # Add an empty line for readability
 }
 
 # Check if the correct number of arguments is provided
