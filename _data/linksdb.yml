@@ -257,3 +257,24 @@ links:
    date: 22/08/2022
    category: stuff
    tags: stuff
+- name: this is a test link
+  description: just testing
+  link: http://simon.keat.es
+  date: 02/07/2024
+  category: testCat
+  tags: testTag
+
+- name: another test
+  description: just testing
+  link: http://simon.keat.es
+  date: 02/07/2024
+  category: testCat
+  tags: testTag
+
+- name: and another test
+  description: just testing
+  link: http://simon.keat.es
+  date: 02/07/2024
+  category: testCat
+  tags: testTag
+
