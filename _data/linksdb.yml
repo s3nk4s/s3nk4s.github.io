@@ -263,18 +263,15 @@ links:
   date: 02/07/2024
   category: testCat
   tags: testTag
-
 - name: another test
   description: just testing
   link: http://simon.keat.es
   date: 02/07/2024
   category: testCat
   tags: testTag
-
 - name: and another test
   description: just testing
   link: http://simon.keat.es
   date: 02/07/2024
   category: testCat
   tags: testTag
-
