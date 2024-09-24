@@ -257,3 +257,10 @@ links:
    date: 22/08/2022
    category: stuff
    tags: stuff
+ - name: best practices for multiple docker compose files?
+   description: Reddit page with info on nested compose files
+   link: https://www.reddit.com/r/selfhosted/comments/18sfkc7/best_practices_for_multiple_docker_compose_files/
+   date: 23/08/2024
+   category: stuff
+   tags: stuff
+
