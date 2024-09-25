@@ -263,4 +263,10 @@ links:
    date: 23/08/2024
    category: stuff
    tags: stuff
+ - name: Does anyone run Wordpress in production via Docker. If so how?
+   description: quick info on running wordpress with docker. 
+   link: https://www.reddit.com/r/docker/comments/h95lxv/does_anyone_run_wordpress_in_production_via/
+   date: 23/08/2024
+   category: stuff
+   tags: stuff
 
