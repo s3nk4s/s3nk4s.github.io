@@ -269,4 +269,10 @@ links:
    date: 23/08/2024
    category: stuff
    tags: stuff
+ - name: How to Install WordPress on Docker (Windows, macOS, and Linux)
+   description: better info on running WP in docker
+   link: https://www.hostinger.com/tutorials/run-docker-wordpress
+   date: 23/08/2024
+   category: stuff
+   tags: stuff
 
