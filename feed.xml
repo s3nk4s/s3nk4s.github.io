@@ -15,10 +15,10 @@ layout:
     {% for post in site.posts limit:1000 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</br>
-		{% for media in post.media %}
-			<p>{{ media.url | xml_escape }}</p>
-		{% endfor %}
+        <description>
+		<p><a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a></p>
+		<p>{{ post.content | xml_escape }}</p>
+		
 		</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
