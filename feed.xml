@@ -17,7 +17,7 @@ layout:
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</br>
 		{% for media in post.media %}
-			<p>{{ media.url }}</p>
+			<p>{{ media.url | xml_escape }}</p>
 		{% endfor %}
 		</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
