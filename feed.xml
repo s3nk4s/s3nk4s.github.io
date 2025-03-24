@@ -16,7 +16,7 @@ layout:
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-		<p><a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a></p>
+		<p><img src="{{ post.image | absolute_url }}" alt="" /></p>
 		<p>{{ post.content | xml_escape }}</p>
 		
 		</description>
