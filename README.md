@@ -1,1 +1,1 @@
-my attempt at running a blog in Jekyll.. and now thinking of moving somewhere else
+moving to hugo
