@@ -1,0 +1,21 @@
+<div class="links_block">
+  {{ $dateParam := .Get "date" }}
+  {{ $links := site.Data.linksdb.links }}
+  {{ $sorted := sort $links "category" }}
+  {{ $cat := "" }}
+  {{ range $i, $link := $sorted }}
+    {{ if eq $link.date $dateParam }}
+      {{ if ne $cat $link.category }}
+        {{ if ne $cat "" }}</ul>{{ end }}
+        {{ $cat = $link.category }}
+        <h2>{{ $link.category }}</h2>
+        <ul>
+      {{ end }}
+      <li><a href="{{ $link.link }}">{{ $link.name }}</a></li>
+      {{ if ne $link.description "..." }}
+        <ul><li>{{ $link.description }}</li></ul>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  </ul>
+</div>

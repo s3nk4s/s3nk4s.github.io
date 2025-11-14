@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on https://simon.keat.es</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on https://simon.keat.es</description>
+    <image>
+      <title>https://simon.keat.es</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>another test</title>
+      <link>http://localhost:1313/posts/2021-12-19-test-post/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021-12-19-test-post/</guid>
+      <description>more testing.</description>
+    </item>
+    <item>
+      <title>hello world</title>
+      <link>http://localhost:1313/posts/2021-12-18-hello-world/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021-12-18-hello-world/</guid>
+      <description>1st post.</description>
+    </item>
+  </channel>
+</rss>
