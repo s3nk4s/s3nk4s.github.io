@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>http://localhost:1313/tags/links/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coffee</title>
+      <link>http://localhost:1313/tags/coffee/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/coffee/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paris</title>
+      <link>http://localhost:1313/tags/paris/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/paris/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ai</title>
       <link>http://localhost:1313/tags/ai/</link>
@@ -32,13 +53,6 @@
       <link>http://localhost:1313/tags/recipies/</link>
       <pubDate>Fri, 13 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/recipies/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Links</title>
-      <link>http://localhost:1313/tags/links/</link>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/links/</guid>
       <description></description>
     </item>
     <item>

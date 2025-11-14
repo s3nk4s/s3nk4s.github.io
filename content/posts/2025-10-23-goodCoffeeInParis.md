@@ -1,17 +1,17 @@
 ---
-title: Good coffee in paris
+title: Good coffee in Paris
 date: 2025-10-23
 cover:
   image: images/parisCoffee.jpg
-description: finding good coffee in paris
-summary: finding good coffee in paris
+description: finding good coffee in Paris
+summary: finding good coffee in Paris
 tags:
   - Paris
   - coffee
 categories:
   - Coffee
 ---
-The french love their coffee - black, strong, and short... Which is great, until you want a flat white, which I've continued to be disappointed with... Until now:
+The French love their coffee - black, strong, and short... Which is great, until you want a flat white, which I've continued to be disappointed with... Until now:
 
 [The Coffee](https://thecoffee.jp/)
 

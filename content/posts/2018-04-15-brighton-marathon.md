@@ -1,16 +1,12 @@
 ---
-layout: post
-title:  "brighton marathon race report"
+title:  "Brighton Marathon race report"
 date:   2018-04-05
-excerpt: "..."
+summary: "Marathon race summary"
 cover:
     image: "/images/brighton.jpg"
 ---
 
-
-<span class="image left"><img src="/assets/images/brighton_marathon.jpg" alt="" width=200></span>
-
-<br>
+![Brighton Marathon race photo](/images/brighton_marathon.jpg)
 
 ### Race information
 - What? Brighton Marathon

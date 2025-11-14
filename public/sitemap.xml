@@ -8,10 +8,31 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2121-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/links/</loc>
+    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-11-10-links-10-nov-2025/</loc>
+    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/coffee/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/coffee/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-10-23-goodcoffeeinparis/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/paris/</loc>
+    <lastmod>2025-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025-07-25-is-this-thing-on/</loc>
@@ -26,9 +47,6 @@
     <loc>http://localhost:1313/categories/stuff/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2023-10-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -40,9 +58,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/recipies/</loc>
     <lastmod>2023-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/links/</loc>
-    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2022-08-22-links-22-august-2022/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
@@ -62,10 +77,10 @@
     <loc>http://localhost:1313/posts/2022-05-02-links-02-may-2022/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-03-07-links-07-mar-2022/</loc>
+    <loc>http://localhost:1313/posts/2022-03-22-links-22-mar-2022/</loc>
     <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2022-03-22-links-22-mar-2022/</loc>
+    <loc>http://localhost:1313/posts/2022-03-07-links-07-mar-2022/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2022-02-28-links-28-feb-2022/</loc>

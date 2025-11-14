@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links for the week of 10 Nov 2025</title>
+      <link>http://localhost:1313/posts/2025-11-10-links-10-nov-2025/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-10-links-10-nov-2025/</guid>
+      <description>Links for the week</description>
+    </item>
+    <item>
+      <title>Good coffee in Paris</title>
+      <link>http://localhost:1313/posts/2025-10-23-goodcoffeeinparis/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-10-23-goodcoffeeinparis/</guid>
+      <description>finding good coffee in Paris</description>
+    </item>
     <item>
       <title>Is this thing on?</title>
       <link>http://localhost:1313/posts/2025-07-25-is-this-thing-on/</link>
@@ -161,102 +175,11 @@
       <description>How Encryption Became The Board’s New Best Friend</description>
     </item>
     <item>
-      <title>brighton marathon race report</title>
+      <title>Brighton Marathon race report</title>
       <link>http://localhost:1313/posts/2018-04-15-brighton-marathon/</link>
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2018-04-15-brighton-marathon/</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h3 id=&#34;race-information&#34;&gt;Race information&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;What? Brighton Marathon&lt;/li&gt;
-&lt;li&gt;When? April 15, 2018&lt;/li&gt;
-&lt;li&gt;How far? 26.2 miles&lt;/li&gt;
-&lt;li&gt;Where? Brighton, UK&lt;/li&gt;
-&lt;li&gt;Website: &lt;a href=&#34;https://www.brightonmarathonweekend.co.uk/events/brighton-marathon/&#34;&gt;https://www.brightonmarathonweekend.co.uk/events/brighton-marathon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Strava activity: &lt;a href=&#34;https://www.strava.com/activities/1510472582&#34;&gt;https://www.strava.com/activities/1510472582&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h3 id=&#34;goals&#34;&gt;Goals&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Goal&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Description&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Completed?&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;A&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Finish!&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;B&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Finish under 4 hours&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;C&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Raise £1,200 for &lt;a href=&#34;https://www.justgiving.com/fundraising/skbrighton2018&#34;&gt;Prostate Cancer Research&lt;/a&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;splits&#34;&gt;Splits&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Distance&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Time&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;1 Mile&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;8:51&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;5K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;27:06&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;10K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;54:30&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;15K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;01:21:57&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;20K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;01:55:19&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;25K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;02:17:09&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;30K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;02:45:08&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;35K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;03:13:38&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;40K&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;03:43:07&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;Finish&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;03:54:58&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;training&#34;&gt;Training&lt;/h3&gt;
-&lt;p&gt;I’ve run on and off for a few years, but only really started taking it seriously in 2016 when a friend challenged me to run a half-marathon that year. It seemed impossible, but the threat of defeat is a great motivator, and we both completed the Richmond Half, in October, in about 2 hours. The next challenge was Brighton marathon 2017, 6 months later, which unfortunately, I couldn’t commit to, due to study commitments (MSc Information Security at Royal Holloway!! Thankfully I passed). The pressure was therefore on for 2018.&lt;/p&gt;</description>
+      <description>Marathon race summary</description>
     </item>
     <item>
       <title>Super cold Brighton Marathon training</title>

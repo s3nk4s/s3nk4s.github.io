@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links for the week of 10 Nov 2025</title>
+      <link>http://localhost:1313/posts/2025-11-10-links-10-nov-2025/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-10-links-10-nov-2025/</guid>
+      <description>Links for the week</description>
+    </item>
     <item>
       <title>Links for the week of 22 August 2022</title>
       <link>http://localhost:1313/posts/2022-08-22-links-22-august-2022/</link>
@@ -57,16 +64,16 @@
     </item>
     <item>
       <title>Links for the week of 22 March 2022</title>
-      <link>http://localhost:1313/posts/2022-03-07-links-07-mar-2022/</link>
+      <link>http://localhost:1313/posts/2022-03-22-links-22-mar-2022/</link>
       <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022-03-07-links-07-mar-2022/</guid>
+      <guid>http://localhost:1313/posts/2022-03-22-links-22-mar-2022/</guid>
       <description>links</description>
     </item>
     <item>
       <title>Links for the week of 07 March 2022</title>
-      <link>http://localhost:1313/posts/2022-03-22-links-22-mar-2022/</link>
+      <link>http://localhost:1313/posts/2022-03-07-links-07-mar-2022/</link>
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2022-03-22-links-22-mar-2022/</guid>
+      <guid>http://localhost:1313/posts/2022-03-07-links-07-mar-2022/</guid>
       <description>links</description>
     </item>
     <item>
