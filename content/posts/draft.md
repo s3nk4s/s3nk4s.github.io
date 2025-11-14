@@ -1,16 +1,17 @@
 ---
-title: Links for the week of 10 Nov 2025
-layout: post
-date: 2025-11-10
+draft: true
+title: draft post
+date: 2025-11-13
 cover:
-    image: "images/road.jpg"
-summary: Links for the week 
+  image: images/unused/beach.jpg
+description: just a draft
+summary: draft
 tags:
-- links
-
+  - draft
+categories:
+  - draft
 ---
 
-{{< linksblock date="10/11/2025" >}}
-
+this is a draft
 
 > Photo by me.  [![Creative Commons License](/images/cc88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses
