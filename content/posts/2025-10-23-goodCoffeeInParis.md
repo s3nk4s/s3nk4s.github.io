@@ -15,6 +15,6 @@ The french love their coffee - black, strong, and short... Which is great, until
 
 [The Coffee](https://thecoffee.jp/)
 
-It's a chain, and bare bones, but the flat whites are great 
+It's a chain, and bare bones, but the flat whites are great.
 
 > Photo by me.  [![Creative Commons License](/images/cc88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses
