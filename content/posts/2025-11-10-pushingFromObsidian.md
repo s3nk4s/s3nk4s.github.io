@@ -39,8 +39,8 @@ jobs:
 
      - name: Copy posts and images
        run: |
-         rsync -av --delete content/posts/ site/content/posts/
-         rsync -av --delete static/images/ site/static/images/
+         rsync -av content/posts/ site/content/posts/
+         rsync -av static/images/ site/static/images/
 
      - name: Commit and push changes
        run: |
@@ -50,5 +50,10 @@ jobs:
          git push https://<your-username>:${{ secrets.DEPLOY_TOKEN }}@github.com/<your-username>/<hugo-repo>.git main
 ```
 
+## update 1
+
+so Obsidian still falls over with just the posts and images. Moving to a simpler model where obsidian only has a new post which can then be deleted once published
+
+changing the rsync commands to remove ```--delete``` 
 
 > Photo by me.  [![Creative Commons License](/images/cc88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses
