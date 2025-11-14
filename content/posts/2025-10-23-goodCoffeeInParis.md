@@ -1,7 +1,6 @@
 ---
 title: Good coffee in paris
 date: 2025-10-23
-layout: post
 cover:
   image: images/parisCoffee.jpg
 description: finding good coffee in paris
@@ -14,7 +13,7 @@ categories:
 ---
 The french love their coffee - black, strong, and short... Which is great, until you want a flat white, which I've continued to be disappointed with... Until now:
 
-[![The Coffee](https://thecoffee.jp/)] 
+[The Coffee](https://thecoffee.jp/)
 
 It's a chain, and bare bones, but the flat whites are great 
 
