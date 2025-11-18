@@ -1,9 +1,8 @@
 ---
-draft: true
 title: What's Next?
 date: 2025-11-13
 cover:
-  image: images/river.jpg
+  image: images/coffeeFace.jpg
 description: Plan for telegram bot to save bookmarks
 summary: draft
 tags:
