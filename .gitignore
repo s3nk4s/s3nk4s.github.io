@@ -30,3 +30,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Ignore all Zone.Identifier alternate data streams
+*:Zone.Identifier
