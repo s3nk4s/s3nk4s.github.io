@@ -1,10 +1,10 @@
 ---
 title: What's Next?
-date: 2025-11-13
+date: 2025-11-17
 cover:
   image: images/coffeeFace.jpg
 description: Plan for telegram bot to save bookmarks
-summary: draft
+summary: Plan for telegram bot to save bookmarks
 tags:
   - bookmarks
 categories:
